@@ -31,7 +31,7 @@ export default class Element {
    *
    * @return {Object}
    */
-  inject () {
+  insert () {
     return {
       [this.name]: this
     }
