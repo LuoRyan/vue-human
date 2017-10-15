@@ -36,10 +36,10 @@
         @clickAction="onAction"
         @changeSort="onSort"
         @changeHighlight="onHighlight">
-        <template scope="scope" slot="cover">
+        <template slot-scope="scope" slot="cover">
           <img :src="scope.item.cover" alt="scope.cover.title" height="80" style="display: block;">
         </template>
-        <template scope="scope" slot="tags">
+        <template slot-scope="scope" slot="tags">
           <mn-tag bg="#ddd" v-for="(tag, key) in scope.item.tags" :key="key">{{ tag }}</mn-tag>
         </template>
       </mn-table>

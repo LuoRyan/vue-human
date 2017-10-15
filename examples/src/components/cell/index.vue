@@ -11,7 +11,7 @@
         <mn-card-suffix slot="action" action>
           <mn-btn theme="secondary" size="sm">删除</mn-btn>
         </mn-card-suffix>
-        <template scope="scope">
+        <template slot-scope="scope">
           <mn-cell-item type="link" :item="scope.item">
             <mn-card-body>
               <h2>{{ scope.item.name }} <small>{{ scope.item.zip }}</small></h2>
