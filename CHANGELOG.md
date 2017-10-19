@@ -1,3 +1,8 @@
+## dev
+
+* 【变更】Element.prototype.inject 改为 Element.prototype.insert。
+* 【变更】在 example 案例内，将 <xxx scope="scope"> 改为 <xxx slot-scope="scope">，更符合 vue 2.5 的变化。
+
 ## 2.6.11
 
 ### /suites/input/input
